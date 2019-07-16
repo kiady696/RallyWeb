@@ -1,0 +1,1 @@
+﻿Select DISTINCT nom,categorieP,idVoiture,classgen.timetot as temps FROM pilote JOIN classgen on classgen.idPilote=Pilote.IdPilote ORDER BY classgen.timetot
